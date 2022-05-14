@@ -1,0 +1,124 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "clase 2.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyPTDdum+pE1stQElbgOoERM",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/erick1819/Prueba_phyton/blob/main/clase_2./terminadoipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "ejercicios while"
+      ],
+      "metadata": {
+        "id": "PuL-aGz6FVwY"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "ScKtI74_DAmF"
+      },
+      "outputs": [],
+      "source": [
+        "prompt=\"\\n Ingrese una serie de ingredientes para la pizza:\"\n",
+        "prompt+=\"\\n Escribe 'salir' para finalizar \"\n",
+        "message=\" \"\n",
+        "while message!= \"salir\":\n",
+        "  message=input(prompt)\n",
+        "  print(f\"{message.title()}, se agregara ese ingrediente asiu pizza\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "ejercicios for"
+      ],
+      "metadata": {
+        "id": "rXw-ngMgSuUn"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "pizzas=[\"Americana\",\"hawaiana\",\"peperoni\"]\n",
+        "for pizza in pizzas:\n",
+        "  print(f\"me gusta la pizza,{pizza.title()}\")\n",
+        "\n",
+        "print(\"me encanta la pizza!\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "T9WIpVtXS8Gt",
+        "outputId": "2ea015e9-a722-458c-fa35-1e9c8116c076"
+      },
+      "execution_count": 35,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "me gusta la pizza,Americana\n",
+            "me gusta la pizza,Hawaiana\n",
+            "me gusta la pizza,Peperoni\n",
+            "me encanta la pizza!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "animals=[\"perro\",\"gato\",\"conejo\"]\n",
+        "for animal in animals:\n",
+        "  print(f\"{animal.title()},seria una gran mascota\")\n",
+        "print(\"los 3 animales son domesticos\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vc6pw6kvU_rl",
+        "outputId": "cacd4b52-de16-4efe-f238-5b87f8628fe5"
+      },
+      "execution_count": 37,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Perro,seria una gran mascota\n",
+            "Gato,seria una gran mascota\n",
+            "Conejo,seria una gran mascota\n",
+            "los 3 animales son domesticos\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
